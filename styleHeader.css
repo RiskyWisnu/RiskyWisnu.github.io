@@ -9,7 +9,7 @@ h2{
 }
 /* set body */
 body{
-    background: url('../TI2B_RiskyWisnu/img/langit.jpg');
+    background: url('./img/langit.jpg');
     background-color:white;
     text-align: center;
     font-size: 14px;
