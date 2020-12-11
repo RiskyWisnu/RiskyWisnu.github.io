@@ -1,0 +1,179 @@
+h2{
+    color:black;
+    background-color: lightskyblue;
+    font-family: fangsong;
+    text-align: center;
+    padding: 5px;
+    word-spacing: 5px;
+    margin: auto;
+}
+/* set body */
+body{
+    background: url('../TI2B_RiskyWisnu/img/langit.jpg');
+    background-color:white;
+    text-align: center;
+    font-size: 14px;
+}
+/* set layout */
+#header{
+    width: 100%;
+    height: 50px;
+    background-color:#02a2d8;
+    position: relative;
+    margin: auto;
+}
+.header{
+    width: 100%;
+    height: 150px;
+}
+/* set menu */
+#Menu{
+    width: 100%;
+    height:40px;
+    background-color:green;
+    position: relative;
+    
+}
+#menu ul{
+    margin: 45px;
+    padding: 1px;
+    list-style: none;
+      
+}
+#menu ul li {
+    float: left;
+    
+}
+#menu ul li a {
+    float: left;
+    color:black;
+    padding: 12px 20px;
+    text-decoration: none;
+    background:mediumaquamarine;
+    border-left: 1px solid #3c4042;
+    border-right: 1px solid #3c4042; 
+}
+#menu ul li a:hover{
+    color:blue;
+    background: springgreen;
+}
+#Kotak{
+    padding: 5px;
+    width: 20%;
+    background-color:black;
+    position: relative;
+    float: right;
+}
+.Post{
+    width: 100%;
+    background:greenyellow;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;;
+    border-left: 1px solid white;
+    font-size : 100%;
+}
+.gambar{
+    width: 100%;
+    height: 150px;
+}
+.judul{ /* pencarian populer */
+    background: grey;
+    padding: 2px;
+    font-size:15px;
+    text-align: center;
+    color:black;
+    font-weight: bold;
+}
+.Post ul{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    list-style-type: none;
+}
+.Post li{
+    padding: 0px 0px 0px 0px;
+    background-position: left;
+    background-repeat: no-repeat;
+    color: black;
+}
+.Post li a{
+    color:black;
+    text-decoration:none;
+    text-decoration: none;
+    margin-bottom: 5px;
+    padding: 4px 5px 3px 10px;
+}
+.Post li a:hover{
+    color:red;
+}
+/* Set Isi */
+#isi{
+    padding: 10px;
+    width: 75%;
+    height: auto;
+    background-color:goldenrod;
+    position: relative;
+    margin-top: 5px;
+}
+/* set isi post */
+.isipost{
+    background-color: burlywood;
+    width: 98%;
+    height: 150;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-align: left;
+}
+/* set gambar utama */
+.gambarutm{
+    float: left;
+    height: 140px;
+    width: 150px;
+    margin-right: 5px;
+    margin-top: 3px;
+    padding: 1px;
+    border: 1px solid black;
+}
+/* set heading2/judul */
+.isipost h2{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin-top: 4px;
+    margin-bottom: 3px;
+}
+/* set text link posting */
+.isipost a{
+    text-decoration: none;
+}
+.isipost a:hover{
+    color:green;
+}
+.isipostall{
+    background-color: burlywood;
+    width: 98%;
+    height: auto;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-align: left;
+
+}
+.isipostall h2{
+    text-align: center;
+    color:rgb(133, 98, 98), 100, 100);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profil{
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding-right: 5px;
+}
+.profil h2{
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
